@@ -31,8 +31,7 @@
 		7BFA75E917257FD80042B4CD /* ExpendableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA75E817257FD80042B4CD /* ExpendableCell.xib */; };
 		7BFA75EB1725814A0042B4CD /* icon_friends_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA75EA1725814A0042B4CD /* icon_friends_arrow_down.png */; };
 		7BFA75ED172581500042B4CD /* icon_friends_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA75EC172581500042B4CD /* icon_friends_arrow_up.png */; };
-		7BFA75F017258CD00042B4CD /* 140.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA75EE17258CD00042B4CD /* 140.png */; };
-		7BFA75F117258CD00042B4CD /* Kabutops.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA75EF17258CD00042B4CD /* Kabutops.gif */; };
+		7BFA75F3172598ED0042B4CD /* logo_c4m.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFA75F2172598ED0042B4CD /* logo_c4m.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,8 +67,7 @@
 		7BFA75E817257FD80042B4CD /* ExpendableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExpendableCell.xib; sourceTree = "<group>"; };
 		7BFA75EA1725814A0042B4CD /* icon_friends_arrow_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_friends_arrow_down.png; sourceTree = "<group>"; };
 		7BFA75EC172581500042B4CD /* icon_friends_arrow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_friends_arrow_up.png; sourceTree = "<group>"; };
-		7BFA75EE17258CD00042B4CD /* 140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 140.png; sourceTree = "<group>"; };
-		7BFA75EF17258CD00042B4CD /* Kabutops.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Kabutops.gif; sourceTree = "<group>"; };
+		7BFA75F2172598ED0042B4CD /* logo_c4m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_c4m.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,8 +135,7 @@
 				7BFA75E817257FD80042B4CD /* ExpendableCell.xib */,
 				7BFA75EC172581500042B4CD /* icon_friends_arrow_up.png */,
 				7BFA75EA1725814A0042B4CD /* icon_friends_arrow_down.png */,
-				7BFA75EE17258CD00042B4CD /* 140.png */,
-				7BFA75EF17258CD00042B4CD /* Kabutops.gif */,
+				7BFA75F2172598ED0042B4CD /* logo_c4m.png */,
 				7BFA75B21725799F0042B4CD /* Supporting Files */,
 			);
 			path = tableViewCellExpendable;
@@ -224,8 +221,7 @@
 				7BFA75E917257FD80042B4CD /* ExpendableCell.xib in Resources */,
 				7BFA75EB1725814A0042B4CD /* icon_friends_arrow_down.png in Resources */,
 				7BFA75ED172581500042B4CD /* icon_friends_arrow_up.png in Resources */,
-				7BFA75F017258CD00042B4CD /* 140.png in Resources */,
-				7BFA75F117258CD00042B4CD /* Kabutops.gif in Resources */,
+				7BFA75F3172598ED0042B4CD /* logo_c4m.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +384,7 @@
 				7BFA75E11725799F0042B4CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

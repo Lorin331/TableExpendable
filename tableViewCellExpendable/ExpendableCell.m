@@ -102,9 +102,10 @@
 {
     [UIView transitionWithView:self duration:0.3 options:UIViewAnimationOptionAllowAnimatedContent animations:^
      {
-         _mImage.frame = CGRectMake(0, 0, 320  , 300);
-         _mImage.image = [UIImage imageNamed:@"Kabutops.gif"];
-         _mLabel.hidden = TRUE;
+         _mImage.frame = CGRectMake(0, 0, 320  , 150);
+         _mLabel.frame = CGRectMake(0, 150, 320  , 150);
+         //_mImage.image = [UIImage imageNamed:@"Kabutops.gif"];
+
      }completion:^(BOOL finished){}];
 }
 
@@ -113,9 +114,10 @@
 {
     [UIView transitionWithView:self duration:0.3 options:UIViewAnimationOptionAllowAnimatedContent animations:^
      {
-         _mImage.frame = CGRectMake(0, 0, 50, 50);
-         _mImage.image = [UIImage imageNamed:@"140"];
-         _mLabel.hidden = FALSE;
+         _mImage.frame = CGRectMake(0, 0, 100, 80);
+         _mLabel.frame = CGRectMake(120, 1, 160  , 93);
+        // _mImage.image = [UIImage imageNamed:@"140"];
+
      }completion:^(BOOL finished){}];
 }
 

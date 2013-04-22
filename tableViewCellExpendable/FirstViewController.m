@@ -38,7 +38,7 @@
         for (int i = 0; i < 45 ; i++)
         {
             DataObject* lDataObject = [[DataObject alloc] init];
-            lDataObject.mTitle = [NSString stringWithFormat:@"Titre numéro : %i", i];
+            lDataObject.mTitle = [NSString stringWithFormat:@"Titre numéro re kza raze  reza reaz re reza reaz reaz reaz r r eaz re zrzea rez reza  reaz r reaz r re zr : %i", i];
             lDataObject.mSelected = FALSE;
             [mDataObjects addObject:lDataObject];
             [lDataObject release];
@@ -116,7 +116,7 @@
     }
     else
     {
-        return 50;
+        return 100;
     }
 }
 
